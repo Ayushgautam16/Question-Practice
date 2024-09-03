@@ -42,10 +42,81 @@
 
 // prog for finding the factor of the number
 
+// #include<iostream>
+// using namespace std;
+// int main(){
+// int i,n;
+
+// cout << "Enter a positive integer: ";
+// cin >> n;
+// for (int i = 1; i < n; i++)
+// {
+//     if (n % i == 0)
+//     {
+//         cout << i << " ";
+//     }
+// }
+    
+
+// return 0;
+// }
+
+// sum of the factor of the number
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+// int i,n, sum =0;
+
+// cout << "Enter a positive integer: ";
+// cin >> n;
+
+// for (int i = 1; i <= n; i++)
+// {
+//     if (n%i ==0)
+//     {
+//         sum = sum + i;
+//     }
+       
+// }
+// cout<<"sum of the factor are "<<sum;
+
+// return 0;
+// }
+
+
+
+
+// prg to find the factor of the num
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+// int i,n, sum =0;
+
+// cout << "Enter a positive integer: ";
+// cin >> n;
+
+// for (int i = 1; i <= n; i++)
+// {
+//     if (n%i ==0)
+//     {
+//         sum = sum + i;
+//     }
+       
+// }
+// cout<<"sum of the factor are "<<sum;
+
+// return 0;
+// }
+
+// prg for checking the number is prime of not?
+
 #include<iostream>
 using namespace std;
 int main(){
-int i,n;
+int i,n,sum=0;
+int count=0;
 
 cout << "Enter a positive integer: ";
 cin >> n;
@@ -53,10 +124,13 @@ for (int i = 1; i < n; i++)
 {
     if (n % i == 0)
     {
-        cout << i << " ";
+        count++;
     }
 }
-    
 
-return 0;
+if (count == 2){
+    cout << n << " is a prime number." << endl;
+}
+
+
 }
