@@ -112,25 +112,26 @@
 
 // prg for checking the number is prime of not?
 
-#include<iostream>
-using namespace std;
-int main(){
-int i,n,sum=0;
-int count=0;
+// #include<iostream>
+// using namespace std;
+// int main(){
+// int i,n,sum=0;
+// int count=0;
 
-cout << "Enter a positive integer: ";
-cin >> n;
-for (int i = 1; i < n; i++)
-{
-    if (n % i == 0)
-    {
-        count++;
-    }
-}
+// cout << "Enter a positive integer: ";
+// cin >> n;
+// for (int i = 1; i <= n; i++)
+// {
+//     if (n % i == 0)
+//     {
+//         count++;
+//     }
+// }
 
-if (count == 2){
-    cout << n << " is a prime number." << endl;
-}
+// if (count == 2){
+//     cout << n << " is a prime number." << endl;
+// }
 
 
-}
+// }
+
