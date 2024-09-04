@@ -135,3 +135,100 @@
 
 // }
 
+// if sum of the factor of the number then it is the perfect number
+
+// #include<iostream>
+
+// using namespace std;
+// int main(){
+// int n ,i,sum =0;
+
+// cout << "Enter a positive integer: ";
+// cin >> n;
+
+// for (i = 1; i <= n; i++)
+// {
+//     if (n%i ==0)
+//     {
+//         sum = sum + i;
+//     }
+
+// }
+
+// if (2*n==sum){
+//     cout << n << " is a perfect number." << endl;
+// }
+// else
+//     cout << n << " is not a perfect number." << endl;
+
+// return 0;
+// }
+
+// prg for print prime number
+
+//  #include<iostream>
+//  using namespace std;
+//  int main(){
+//  int i,n, count = 0;
+ 
+//  cout << "Enter a positive integer: ";
+//  cin >> n;
+ 
+//  for (i = 1; i <= n; i++)
+//  {
+//  if(n%i ==0)
+//  {
+//  count++;
+//  }
+//  }
+//  if(count == 2)
+ 
+//  cout << n << " is a prime number." << endl;
+//  else
+//  cout << n << " is not a prime number." << endl;
+ 
+//  }
+ 
+//  for multiplication of the table like 1 to 20
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+// int i,n;
+
+// cout << "Enter a positive integer: ";
+// cin >> n;
+// for (int i = 1; i <= n; i++)
+// {
+
+
+//     for (int j = 1; j <= 12; j++)
+//     {
+//         cout << i << " * " << j << " = " << i*j << endl;
+//     }
+//     cout << endl;
+ 
+// }
+
+// }
+
+// prg for the printing the simple multiplication table
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+// int i, n;
+
+// cout << "Enter a positive integer: ";
+// cin >> n;
+
+// for (i = 1; i <= 12; i++)
+// {
+//     cout << n <<"X"<< i << "=" << n*i <<endl ;
+
+// }
+    
+
+// }
+
+
