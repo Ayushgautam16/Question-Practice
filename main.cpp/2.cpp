@@ -295,3 +295,27 @@ cout<<" num is the gcd"<<m<<endl;
 return 0;
 }
 }
+
+
+// sum of the factor of the number
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+// int i,n, sum =0;
+
+// cout << "Enter a positive integer: ";
+// cin >> n;
+
+// for (int i = 1; i <= n; i++)
+// {
+//     if (n%i ==0)
+//     {
+//         sum = sum + i;
+//     }
+       
+// }
+// cout<<"sum of the factor are "<<sum;
+
+// return 0;
+// }
