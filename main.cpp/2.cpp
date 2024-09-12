@@ -272,29 +272,29 @@
 
 // for finding the gcd number
 
-#include<iostream>
-using namespace std;
-int main(){
-int m, n;
+// #include<iostream>
+// using namespace std;
+// int main(){
+// int m, n;
 
-cout << "Enter two positive integers: ";
-cin >> m >> n;
-while (m!=n){
-{
+// cout << "Enter two positive integers: ";
+// cin >> m >> n;
+// while (m!=n){
+// {
    
-    if (m > n)
+//     if (m > n)
     
-        m = m - n;
+//         m = m - n;
     
-    else if (n > m)
+//     else if (n > m)
     
-        n = n - m;
+//         n = n - m;
     
-}
-cout<<" num is the gcd"<<m<<endl;
-return 0;
-}
-}
+// }
+// cout<<" num is the gcd"<<m<<endl;
+// return 0;
+// }
+// }
 
 
 // sum of the factor of the number
