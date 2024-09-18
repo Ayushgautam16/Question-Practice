@@ -35,30 +35,30 @@
 
 // Arrays struct
 
-#include<iostream>
-using namespace std;
-struct rectangle{
-    int length;
-    int bredth;
+// #include<iostream>
+// using namespace std;
+// struct rectangle{
+//     int length;
+//     int bredth;
 
-};
-
-
-int main(){
-struct rectangle r1 = {10,5};
-cout<<r1.length<<endl;
-cout<<r1.bredth<<endl;
+// };
 
 
+// int main(){
+// struct rectangle r1 = {10,5};
+// cout<<r1.length<<endl;
+// cout<<r1.bredth<<endl;
 
-};
-struct rectangle
-struct rectangle{
-    int length;
-    int bredth;
 
-};
-struct rectangle
+
+// };
+// struct rectangle
+// struct rectangle{
+//     int length;
+//     int bredth;
+
+// };
+// struct rectangle
 
 
 
