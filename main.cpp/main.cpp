@@ -8,8 +8,8 @@
     cout << "Enter the integers: ";
     for(int i = 0; i < n; i++){
         cin >> k;
-        if(k % 3 == 0 && k % 5 == 0 && k % 7 == 0){
-            count++;
+        // if(k % 3 == 0 && k % 5 == 0 && k % 7 == 0){
+        //     count++;
         }
     }
 return 0;
