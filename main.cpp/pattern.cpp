@@ -13,8 +13,8 @@ cin>>n;
             {
                 /* code */
                 cout << "* ";
-            }
-            cout <<endl;
+            // }
+            // cout <<endl;
 
             
     //     }
