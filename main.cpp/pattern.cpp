@@ -12,7 +12,7 @@ cin>>n;
             if (i>j)
             {
                 /* code */
-                cout << "* ";
+                // cout << "* ";
             // }
             // cout <<endl;
 
