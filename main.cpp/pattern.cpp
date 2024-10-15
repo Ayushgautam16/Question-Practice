@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
 int i,n;
-cout << "numobjects" << endl;
+// cout << "numobjects" << endl;
 // cin>>n;
     // for (int i = 0; i < n; i++)
     // {
