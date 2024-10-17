@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main(){
+// int main(){
 // int i,n;
 // cout << "numobjects" << endl;
 // cin>>n;
