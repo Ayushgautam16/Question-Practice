@@ -136,9 +136,9 @@ int main(){
     // case 7:
     //     cout << "Sunday";
     //     break;
-    default:
-        cout << "Invalid day";
+//     default:
+//         cout << "Invalid day";
 
-}
+// }
 
-}
+// }
