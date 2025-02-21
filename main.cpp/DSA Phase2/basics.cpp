@@ -111,10 +111,10 @@ int main(){
 //     // } this is called the nested loop?
 // }
 
-int day;
-cin >> day;
+// int day;
+// cin >> day;
 
-switch (day) {
+// // switch (day) {
     case 1:
         cout << "Monday";
         break;
