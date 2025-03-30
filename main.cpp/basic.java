@@ -21,6 +21,28 @@ public static void main(String[] args) {
 //  *
 // *****
 
+// */% same priority 
+// +- same priority 
+// left me jo hoga vo pehle hoga 
+
+
+// question 
+int marks  ;
+
+if(marks>= 90){
+    System.out.println("excellent");
+}
+else if(marks>= 80){
+    System.out.println("excellent");
+}
+else if(marks>= 90){
+    System.out.println("excellent");
+}
+else if(marks>= 90){
+    System.out.println("excellent");
+}
+
+
 
 }
     
