@@ -285,22 +285,63 @@ public static void main(String[] args) {
 
 
 
+        
+            //     Scanner scanner = new Scanner(System.in);
+                
+            //     // Taking input from the user
+            //     System.out.print("Enter a number: ");
+            //     int number = scanner.nextInt();
+                
+            //     // Convert number to String to maintain order
+            //     String numStr = Integer.toString(number);
+                
+            //     // Printing each digit on a new line
+            //     for (char digit : numStr.toCharArray()) {
+            //         System.out.println(digit);
+            //     }
+        
+            //     scanner.close();
+            // }
+        // }
+        
+
+
+
+
+
+// integer in the reverse order 
 
 // public class Main {
     // public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+        
+//         // Taking input from the user
+//         System.out.print("Enter a number: ");
+//         int number = scanner.nextInt();
+        
+//         // Printing the number on different lines
+//         while (number > 0) {
+//             System.out.println(number % 10);
+//             number /= 10;
+//         }
+
+//         scanner.close();
+
+
+
         Scanner scanner = new Scanner(System.in);
         
         // Taking input from the user
         System.out.print("Enter a number: ");
-        int number = scanner.nextInt();
+        int num = scanner.nextInt();
         
-        // Printing the number on different lines
-        while (number > 0) {
-            System.out.println(number % 10);
-            number /= 10;
+        while(num>0){
+            int digit = num%10;
+            num /=10;
+            System.out.println(digit);
+
         }
 
-        scanner.close();
     }
 }
 
