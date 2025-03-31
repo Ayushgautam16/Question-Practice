@@ -429,37 +429,39 @@ public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         
+        // Taking input from user
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
-        System.out.print("Enter a numberhow may time y wanted to ratate num: ");
+        System.out.print("Enter how many times you want to rotate the number: ");
         int k = sc.nextInt();
-        int temp = n; 
+
+        // Count number of digits
+        int temp = n;
         int nod = 0;
-while(temp=o){
-    temp =temp/10;
-    nod++;
+        while (temp > 0) {  
+            temp /= 10;
+            nod++;
+        }
 
-}
-k= k%nod;
-int div = 1;
-int mult =1;
-for(int i =1; i<=nod; i++){
-    if(i<=k){
-        div = div*10;
-    }
-    else{
-        mult = mult *10;
+        // Handle large rotations and negative k
+        k = k % nod;  
+        if (k < 0) {  
+            k = k + nod;
+        }
 
-    }
-}
-int q =n / div;
-int r = n%div;
+        // Create divisor and multiplier for rotation
+        int div = (int) Math.pow(10, k);  // Divides the last k digits
+        int mult = (int) Math.pow(10, nod - k);  // Moves first part forward
 
-int r = r*mult+q;
-System.out.println(r);
+        // Splitting and rotating
+        int q = n / div;  // Quotient (left part)
+        int r = n % div;  // Remainder (right part)
 
+        // Rotated number
+        int rotated = r * mult + q; 
 
-
+        System.out.println("Rotated Number: " + rotated);
+        sc.close();
     }
 }
 
