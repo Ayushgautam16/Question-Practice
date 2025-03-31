@@ -329,21 +329,137 @@ public static void main(String[] args) {
 
 
 
-        Scanner scanner = new Scanner(System.in);
+        // Scanner scanner = new Scanner(System.in);
         
-        // Taking input from the user
-        System.out.print("Enter a number: ");
-        int num = scanner.nextInt();
+        // // Taking input from the user
+        // System.out.print("Enter a number: ");
+        // int num = scanner.nextInt();
         
-        while(num>0){
-            int digit = num%10;
-            num /=10;
-            System.out.println(digit);
+        // while(num>0){
+        //     int digit = num%10;
+        //     num /=10;
+        //     System.out.println(digit);
 
-        }
+        // }
+
+
+
+        // inverse of the num 
+
+//         What does "inverse of a number" mean?
+// In this context, "inverse" means that each digit's position becomes the value at that position.
+
+// Example:
+// Input: 21453
+
+// Inverse Output: 24135
+
+// 2 is at position 1, so place 1 at index 2.
+
+// 1 is at position 2, so place 2 at index 1.
+
+// 4 is at position 3, so place 3 at index 4.
+
+// 5 is at position 4, so place 4 at index 5.
+
+// 3 is at position 5, so place 5 at index 3.
+
+
+
+//  Scanner scanner = new Scanner(System.in);
+        
+//         // Taking input from the user
+//         System.out.print("Enter a number: ");
+       
+
+        
+//         // Taking input from the user
+//         System.out.print("Enter a number: ");
+//         int n = scanner.nextInt();
+
+//         int inv = 0;
+//         int pos = 1; // Position starts from 1
+
+//         while (n != 0) {
+//             int digit = n % 10;  // Extract last digit
+//             int placeValue = pos; // Current position
+
+//             // Place the position at index 'digit'
+//             inv += placeValue * Math.pow(10, digit - 1);
+
+//             n /= 10; // Remove last digit
+//             pos++;   // Increment position
+//         }
+
+//         System.out.println("Inverse: " + inv);
+//         scanner.close();
+
+
+
+
+        // Scanner sc = new Scanner(System.in);
+        
+        // System.out.print("Enter a number: ");
+        // int n = sc.nextInt();
+
+        // int inv = 0;
+        // int op = 1; // Original position starts from 1
+
+        // while (n != 0) {
+        //     int od = n % 10;  // Extract the last digit
+        //     int id = op;      // Current position
+        //     int ip = od;      // Original digit
+            
+        //     // Calculate inverse
+        //     inv = inv + id * (int) Math.pow(10, ip - 1);
+            
+        //     n = n / 10; // Remove last digit
+        //     op++;        // Increment position
+        // }
+
+        // System.out.println("Inverse: " + inv);
+        // sc.close();
+
+
+//         Enter a number: 21543
+// Inverse: 32154
+
+
+
+
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Enter a number: ");
+        int n = sc.nextInt();
+        System.out.print("Enter a numberhow may time y wanted to ratate num: ");
+        int k = sc.nextInt();
+        int temp = n; 
+        int nod = 0;
+while(temp=o){
+    temp =temp/10;
+    nod++;
+
+}
+k= k%nod;
+int div = 1;
+int mult =1;
+for(int i =1; i<=nod; i++){
+    if(i<=k){
+        div = div*10;
+    }
+    else{
+        mult = mult *10;
 
     }
 }
+int q =n / div;
+int r = n%div;
+
+int r = r*mult+q;
+System.out.println(r);
 
 
+
+    }
+}
 
