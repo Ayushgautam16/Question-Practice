@@ -427,41 +427,78 @@ public static void main(String[] args) {
 
 
 
-        Scanner sc = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
         
-        // Taking input from user
-        System.out.print("Enter a number: ");
-        int n = sc.nextInt();
-        System.out.print("Enter how many times you want to rotate the number: ");
-        int k = sc.nextInt();
+        // // Taking input from user
+        // System.out.print("Enter a number: ");
+        // int n = sc.nextInt();
+        // System.out.print("Enter how many times you want to rotate the number: ");
+        // int k = sc.nextInt();
 
-        // Count number of digits
-        int temp = n;
-        int nod = 0;
-        while (temp > 0) {  
-            temp /= 10;
-            nod++;
-        }
+        // // Count number of digits
+        // int temp = n;
+        // int nod = 0;
+        // while (temp > 0) {  
+        //     temp /= 10;
+        //     nod++;
+        // }
 
-        // Handle large rotations and negative k
-        k = k % nod;  
-        if (k < 0) {  
-            k = k + nod;
-        }
+        // // Handle large rotations and negative k
+        // k = k % nod;  
+        // if (k < 0) {  
+        //     k = k + nod;
+        // }
 
-        // Create divisor and multiplier for rotation
-        int div = (int) Math.pow(10, k);  // Divides the last k digits
-        int mult = (int) Math.pow(10, nod - k);  // Moves first part forward
+        // // Create divisor and multiplier for rotation
+        // int div = (int) Math.pow(10, k);  // Divides the last k digits
+        // int mult = (int) Math.pow(10, nod - k);  // Moves first part forward
 
-        // Splitting and rotating
-        int q = n / div;  // Quotient (left part)
-        int r = n % div;  // Remainder (right part)
+        // // Splitting and rotating
+        // int q = n / div;  // Quotient (left part)
+        // int r = n % div;  // Remainder (right part)
 
-        // Rotated number
-        int rotated = r * mult + q; 
+        // // Rotated number
+        // int rotated = r * mult + q; 
 
-        System.out.println("Rotated Number: " + rotated);
-        sc.close();
+        // System.out.println("Rotated Number: " + rotated);
+        // sc.close();
+
+// Swapping of two number
+// 1. using third var 
+int a =10;
+int b=20;
+// int t =a;
+// a=b;
+// b=t;
+// System.out.println("a"+ a +" "+"b"+ b);
+
+// a= a+b;
+// b=a-b;
+// a= a-b;
+// System.out.println("a"+ a +" "+"b"+ b);
+
+
+// * and / without using third variable 
+// no third var aswell
+
+// a= a*b;
+// b=a/b;
+// a= a/b;
+// System.out.println("a"+ a +" "+"b"+ b);
+
+// bitwise xor operator 
+
+//  a = a^b;
+//  b = a^b;
+//  a = a^b;
+// System.out.println("a"+ a +" "+"b"+ b);
+
+
+// b= a+b-(a=b);
+// System.out.println("a"+ a +" "+"b"+ b);
+
+
+
     }
 }
 
