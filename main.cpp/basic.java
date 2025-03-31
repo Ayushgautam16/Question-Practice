@@ -252,27 +252,27 @@ public static void main(String[] args) {
 
 
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the value you want to enter: ");
-        int n = sc.nextInt();
-        sc.close();  // Closing the scanner to avoid resource leaks
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter the value you want to enter: ");
+        // int n = sc.nextInt();
+        // sc.close();  // Closing the scanner to avoid resource leaks
 
-        int nod = 0;
-        int temp = n;  // Fix: temp should be initialized to n
+        // int nod = 0;
+        // int temp = n;  // Fix: temp should be initialized to n
 
-        while (temp != 0) {
-            temp = temp / 10;
-            nod++;
-        }
+        // while (temp != 0) {
+        //     temp = temp / 10;
+        //     nod++;
+        // }
 
-        int div = (int) Math.pow(10, nod - 1);
+        // int div = (int) Math.pow(10, nod - 1);
 
-        while (div != 0) {
-            int q = n / div;  // Extract the leftmost digit
-            System.out.println(q);
-            n = n % div;  // Remove the leftmost digit
-            div = div / 10;  // Reduce divisor
-        }
+        // while (div != 0) {
+        //     int q = n / div;  // Extract the leftmost digit
+        //     System.out.println(q);
+        //     n = n % div;  // Remove the leftmost digit
+        //     div = div / 10;  // Reduce divisor
+        // }
         // 21421412
         // 2
         // 1
