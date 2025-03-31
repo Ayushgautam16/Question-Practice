@@ -171,8 +171,6 @@ public static void main(String[] args) {
 // int low  = sc.nextInt();
 // System.out.println("enter the higher num : ");
 // int high = sc.nextInt();
-
-
 // for(int n =low ; n<=high;n++){
 //     int count =0;
 
