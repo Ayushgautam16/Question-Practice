@@ -286,7 +286,23 @@ public static void main(String[] args) {
 
 
 
+// public class Main {
+    // public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        // Taking input from the user
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+        
+        // Printing the number on different lines
+        while (number > 0) {
+            System.out.println(number % 10);
+            number /= 10;
+        }
+
+        scanner.close();
     }
 }
+
 
 
